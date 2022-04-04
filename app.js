@@ -10,7 +10,6 @@ app.use(cors());
 app.get("/", (req, res) => {
   res.send("welcome");
 });
- fhffhfhfhfhfhhfhhhhd
 app.get("/api/v1/meta/:id", (req, res) => {
   const tokenId = req.params.id;
   const metaData = data.find((nftMetadata, index) => index + 1 == tokenId);
